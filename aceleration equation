@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int vi = 30;
+int vf = 180;
+int tiempo  = 30;
+
+int aceleracion;
+
+
+int main ()
+{
+	aceleracion = (vf - vi)/ tiempo ;
+	cout << aceleracion << endl;
+	
+	return 0;
+}
